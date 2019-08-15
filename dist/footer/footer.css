@@ -1,0 +1,130 @@
+.footer {
+  margin: 0;
+  padding: 0; }
+  .footer__span {
+    font-weight: bold; }
+  .footer__link {
+    text-decoration: none; }
+  .footer__first {
+    background-color: #f2f2f2; }
+  .footer__item {
+    padding-bottom: 10px;
+    font-size: 1em;
+    color: #333333; }
+  .footer__noList {
+    padding-top: 4px;
+    padding-bottom: 100px; }
+  .footer__article {
+    color: #333333;
+    font-size: 1rem;
+    padding-left: 41px;
+    padding-bottom: 35px; }
+  .footer__writing {
+    padding-top: 26px;
+    max-width: 1000px;
+    margin: auto; }
+  @media (max-width: 768px) {
+    .footer__item {
+      font-size: .8rem; }
+    .footer__article {
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: .9rem; } }
+
+.fsocial {
+  background-color: #e5e5e5; }
+  .fsocial__writing {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 18px;
+    padding-bottom: 18px; }
+  .fsocial__list {
+    padding: 0 0 0 31px; }
+  .fsocial__item {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: .9rem;
+    padding-right: 10px; }
+
+.fcopy {
+  background-color: #e5e5e5; }
+  .fcopy__link {
+    color: #1d5799; }
+  .fcopy__privacy {
+    padding-bottom: 30px; }
+  .fcopy__pitem {
+    display: inline-block; }
+  .fcopy__writing {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 33px;
+    color: #333333;
+    display: flex; }
+  .fcopy__link {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: .8rem; }
+  .fcopy__fitem {
+    font-size: .7rem;
+    padding-bottom: 40px; }
+  @media (max-width: 768px) {
+    .fcopy__writing {
+      display: block; }
+    .fcopy__link {
+      padding-bottom: 20px; } }
+
+.legalfooter {
+  background: #e5e5e5;
+  padding-top: 26px;
+  padding-bottom: 10px; }
+  .legalfooter .col-md-6 {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+  .legalfooter p {
+    font-family: AvenirNextLTW01-Regular, Arial;
+    font-size: 12px;
+    margin-bottom: 40px;
+    font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+    color: #666666; }
+  .legalfooter a {
+    font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+    font-size: 12px;
+    color: #1d5799;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: inline !important;
+    padding-left: 0px !important; }
+  .legalfooter .container80percent {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  @media (max-width: 1000px) {
+    .legalfooter .container80percent {
+      padding-left: 40px !important;
+      padding-right: 40px !important;
+      width: 100% !important; } }
+
+@media (max-width: 770px) {
+  .legalfooter p {
+    margin-top: 13px !important;
+    margin-bottom: 0px !important; } }
+
+.flist {
+  background-color: #999999; }
+  .flist__writing {
+    padding-top: 30px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex; }
+  .flist__link {
+    color: white !important; }
+  .flist__item {
+    max-width: 170px;
+    padding-bottom: 15px;
+    color: white !important;
+    list-style-type: none; }
+  @media (max-width: 1025px) {
+    .flist__link {
+      font-size: 0.85rem !important; } }
